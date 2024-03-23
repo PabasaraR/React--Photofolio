@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/React--Photofolio/static/css/main.58076fe2.css",
+    "main.js": "/React--Photofolio/static/js/main.30572dce.js",
+    "static/js/453.e1a4b6e9.chunk.js": "/React--Photofolio/static/js/453.e1a4b6e9.chunk.js",
+    "static/media/pabasara4.png": "/React--Photofolio/static/media/pabasara4.82dd2b2be5cdf366c774.png",
+    "static/media/revicons.eot": "/React--Photofolio/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/React--Photofolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/React--Photofolio/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/React--Photofolio/index.html",
+    "main.58076fe2.css.map": "/React--Photofolio/static/css/main.58076fe2.css.map",
+    "main.30572dce.js.map": "/React--Photofolio/static/js/main.30572dce.js.map",
+    "453.e1a4b6e9.chunk.js.map": "/React--Photofolio/static/js/453.e1a4b6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58076fe2.css",
+    "static/js/main.30572dce.js"
+  ]
+}
