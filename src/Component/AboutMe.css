@@ -1,0 +1,60 @@
+.aboutMeBody {
+  color: white;
+  height: 700px;
+}
+/* styles.css */
+
+body {
+  background: linear-gradient(-45deg, #501a50, #000000, #1b091b, #3b173b);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 70%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.aboutmeHead {
+  padding-top: 10px;
+  padding-left: 30px;
+}
+
+.aboutmePharagraph {
+  font-size: 20px;
+  line-height: 2em;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.aboutMePharagrap1 {
+  text-indent: 50px;
+  padding-bottom: 20px;
+}
+
+.aboutMePharagrap2 {
+  text-indent: 30px;
+}
+
+.right {
+  padding-left: 20px;
+}
+
+@media only screen and (max-width: 1080px) and (max-height: 2400px) {
+  .aboutmePharagraph {
+    font-size: 14px; /* Adjust font size for mobile */
+    line-height: 1.4em; /* Adjust line height for better readability */
+  }
+
+  .aboutMePharagrap1 {
+    text-indent: 10px; /* Adjust indentation */
+    padding-bottom: 5px; /* Reduce bottom padding */
+  }
+}

@@ -1,0 +1,55 @@
+.skilBody {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  color: white;
+  height: 600px;
+  background-color: black;
+}
+
+.skilHead {
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.skilGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  padding-left: 170px;
+}
+
+.skilGrid2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-left: 70px;
+}
+
+.technicalSkilh2 {
+  padding-left: 150px;
+}
+
+.technicalSkil {
+  padding-bottom: 20px;
+}
+.personalSkilh2 {
+  padding-top: 70px;
+  padding-left: 30px;
+}
+
+@media only screen and (max-width: 1080px) and (max-height: 2400px) {
+  .skilBody {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .technicalSkilh2 {
+    position: relative;
+    padding-left: 20px;
+  }
+  .skilGrid {
+    padding-left: 30px;
+  }
+  .skilGrid2 {
+    padding-left: 30px;
+  }
+}

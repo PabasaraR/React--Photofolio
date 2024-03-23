@@ -1,0 +1,59 @@
+.skilComponentBody {
+  background-color: rgba(0, 0, 0, 0);
+  width: 110px;
+  height: 40px;
+  text-align: center;
+  padding-top: -10px;
+}
+
+.skilButton {
+  border: 5em;
+  cursor: pointer;
+  outline: none;
+  font-size: 16px;
+  -webkit-transform: translate(0);
+  transform: translate(0);
+  background-image: linear-gradient(45deg, #1e061f, #5f0363);
+  padding: 10px;
+  border-radius: 65px;
+  box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.438);
+  -webkit-transition: box-shadow 0.25s;
+  transition: box-shadow 0.25s;
+  color: white;
+  width: 150px;
+  height: 50px;
+}
+
+.skilButton.text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(45deg, #1e061f, #5f0363);
+}
+
+.skilButton:after {
+  content: "";
+  border-radius: 18px;
+  position: absolute;
+  margin: 4px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  background: #0e0e10;
+}
+
+.skilButton:hover {
+  background-image: linear-gradient(-45deg, #1e061f, #5f0363);
+  box-shadow: 0 12px 24px rgba(128, 128, 128, 0.1);
+}
+
+.skilButton:hover .text {
+  background-image: linear-gradient(-45deg, #1e061f, #5f0363);
+}
+
+.skilPadin {
+  padding: 10px;
+  background-color: transparent;
+}

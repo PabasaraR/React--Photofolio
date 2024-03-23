@@ -1,0 +1,40 @@
+.footerBody {
+  height: 200px;
+  background-color: black;
+  color: white;
+}
+
+.github {
+  display: inline-block;
+}
+
+.icon {
+  position: relative;
+  left: 1330px;
+  top: 70px;
+}
+
+.details {
+  text-align: center;
+  position: relative;
+  top: 70px;
+}
+
+.detailsh3 {
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+  .detailsh3 {
+    font-size: 16px;
+  }
+
+  .details p {
+    font-size: 14px;
+  }
+
+  .icon {
+    position: absolute;
+    left: 10px;
+  }
+}

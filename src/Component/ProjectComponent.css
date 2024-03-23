@@ -1,0 +1,52 @@
+.projectCard {
+  padding-bottom: 50px;
+  padding-right: 20px;
+}
+
+.projectCardBody {
+  width: 650px;
+  border-radius: 30px;
+  color: #ffffff;
+  background-image: linear-gradient(
+    to bottom,
+    #501a50,
+    transparent
+  ); /* Equivalent to bg-gradient-to-b from-slate-600 to-transparent */
+  text-align: center; /* Equivalent to text-center */
+}
+.projectCartHeadder {
+  padding-top: 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.projectCartPharagrapg {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.projectCardImage {
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center;
+  height: 300px;
+  width: 600px;
+  border-radius: 20px;
+}
+
+.projectImageCenter {
+  padding-left: 45px;
+}
+
+.projectTec {
+}
+
+@media only screen and (max-width: 1080px) and (max-height: 2400px) {
+  .projectCardBody {
+    width: 250px;
+  }
+  .projectCartHeadder {
+    font-size: 20px;
+  }
+}
